@@ -37,6 +37,8 @@ Then, we’ll use a combinatorial approach of over- and undersampling using the 
 
 ### **Resampling models**
 
+✅ **[Deliverable 1 and 2](https://github.com/amonjaras/Credit_Risk_Analysis/blob/main/Module_Challenge/credit_risk_resampling.ipynb)**
+
 #### **Random Oversampling**
 
 > *Fig 1: Oversampling*
@@ -97,6 +99,8 @@ From Fig 4, we extract the following remarks:
 
 ### **Ensemble Classifiers**
 
+✅ **[Deliverable 3](https://github.com/amonjaras/Credit_Risk_Analysis/blob/main/Module_Challenge/credit_risk_ensemble.ipynb)**
+
 #### **Balanced Random Forest**
 
 > *Fig 5: Balanced Random Forest*
@@ -133,6 +137,12 @@ After comparing all the results from different ML models, the `EasyEnsembleClass
 Looking to the Sensitivity rate (Recall) we noted also a higher value with **91%** comparing with the rest of the models.
 It is important to mention that the original dataset had mayority of the applicatios classified as "Low Risk" and minority as "High Risk" category; with this classification the results would be highly affected and there is a risk that the `Machine Learning` algorithms are creting clusters from too small datasets of "High Risk" applications.
 
+[:top: Go To Top](#index)
 
 
 
+This work belongs to [^1].
+Course [^2].
+[^note]:
+[^1]: Author: Audrey MONJARAS :mexico: :panama: :canada:
+[^2]: Data Analytics: Unit 17 SML
